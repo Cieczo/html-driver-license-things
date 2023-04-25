@@ -1,0 +1,106 @@
+body{
+  background-color: grey;
+}
+h1{
+  font-weight: bolder;
+  color: blue;
+  margin-top: 5vh;
+  font-size: 25;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+p{
+  font-size: 40;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-right: 20px;
+  justify-content: center;
+}
+.name{
+display: flex;
+}
+.swiatlo {
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+}
+
+.swiatlo p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.swiatlo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+}
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.border{
+  border: 5px solid black;
+  border-radius: 15px;
+  background-color: white;
+}
+.description p{
+  font-size: 20px;
+}
+.part1{
+  color: red;
+  font-weight: bolder;
+  font-size: 22px;
+}
+.part2{
+  color: blueviolet;
+}
+.questions p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+img{
+  height: 300px;
+  width: 300px;
+}
+.answers{
+  display: flex;
+  align-items: center;
+}
+.choice{
+  display: flex
+}
+.choice p{
+  font-size: 20px;
+  display: inline-block;
+  justify-content: space-between;
+  margin-right: 18px;
+}
+.all-questions{
+  display: flex;
+}
+.questions{
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: white;
+  padding: 15px;
+  margin: 8px;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
